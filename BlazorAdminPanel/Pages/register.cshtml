@@ -1,0 +1,152 @@
+﻿@page
+@model BlazorAdminPanel.Pages.register
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script>
+        function on_register()
+        {
+            let password = document.getElementById("password_field").value;
+            let password_repeat = document.getElementById("password_repeat_field").value;
+            let email = document.getElementById("email_field").value;
+            let age = document.getElementById("age_field").value;
+            
+            if (password !== password_repeat){
+                alert("Check repeat password");
+                return;
+            }
+           
+            
+                
+            
+            let request_json = {
+                password: password,
+                email: email,
+                age: age
+            };
+            
+            fetch('/register', {
+                method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(request_json)
+                    }).then((x) => {
+                              if (x.status === 200)
+                                  window.location.replace('/')
+                              else
+                                  alert("Проверьте данные");
+                          });
+        }
+        </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1fefe;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 56px;
+    background-color: #f1fefe;
+    
+    
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #57b846;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #57b846;
+    color: white;
+    padding: 16px 0px;
+    margin: 33px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1fefe;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form >
+  <div class="container">
+    <h1 style="color: #57b846">Регистрация</h1>
+    <p>Заполните форму для того, чтобы зарегестрировать аккаунт</p>
+    <hr>
+    <label for="email_field"><b>Email</b></label>
+    <input type="text" placeholder="Введите Email" id="email_field" required>
+
+    <label for="age_field"><b>Возраст</b></label>
+        <input type="text" placeholder="Введите свой возраст" id="age_field" required>
+
+    <label for="password_field"><b>Пароль</b></label>
+    <input type="password" placeholder="Придумайте пароль" id="password_field" required>
+
+    <label for="password_repeat_field"><b>Подтверждение пароля</b></label>
+    <input type="password" placeholder="Повторите пароль" id="password_repeat_field" required>
+    <hr>
+
+    <button onclick="on_register()" class="registerbtn">Зарегестрироваться</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Уже есть аккаунт? <a href="Auth">Войдите здесь</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
+
+
+
+

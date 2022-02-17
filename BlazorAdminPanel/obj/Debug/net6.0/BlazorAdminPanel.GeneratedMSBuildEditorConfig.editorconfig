@@ -1,0 +1,116 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorAdminPanel
+build_property.RootNamespace = BlazorAdminPanel
+build_property.ProjectDir = C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/CustomerGeography.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJHZW9ncmFwaHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/DBMS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREJNUy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/Earnings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWFybmluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/WebProg.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2ViUHJvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_EarningsGrowth.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9FYXJuaW5nc0dyb3d0aC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_Geography.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9HZW9ncmFwaHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_GraphCustomers.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9HcmFwaEN1c3RvbWVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_GraphEarnings.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9HcmFwaEVhcm5pbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_MonthAverage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9Nb250aEF2ZXJhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_Technology.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9UZWNobm9sb2d5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_TotalCustomers.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9Ub3RhbEN1c3RvbWVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/MyComponent/_TotalEarning.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15Q29tcG9uZW50XF9Ub3RhbEVhcm5pbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/adds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/Auth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zxceb/Desktop/BlazorAdminPanel/BlazorAdminPanel/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

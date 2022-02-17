@@ -1,0 +1,87 @@
+﻿@page
+@using System.Transactions
+@using BlazorAdminPanel.Pages
+@model BlazorAdminPanel.Pages.adds
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Mvc
+    @using Microsoft.JSInterop
+    @using global::BlazorAdminPanel.DataBase
+@using global::BlazorAdminPanel.Extensions
+
+@* Обязательно для вызова метода Dispose, иначе метод вызываться не будет *@
+
+@inject IJSRuntime JSRuntimeФ
+
+
+    @functions{
+
+        public double Plus { get; init; }
+        public double Minus { get; init; }
+
+        public void OnGet()
+        {
+            
+        }
+
+        public void OnPost()
+        {
+            
+        }
+
+
+    }
+@{
+    ViewData["Title"] = "Список пользователей";
+}
+<style>
+button {
+           background-color: #4CAF50;
+           color: white;
+           padding: 14px 20px;
+           border: none;
+           cursor: pointer;
+           width: 100%;
+           display:flex; 
+           margin-left: auto;
+           margin-right: auto;
+       
+           
+       }</style>
+<script>
+    function submit()
+    {
+        let plus = document.getElementById("plus_field").value;
+        let minus = document.getElementById("minus_field").value;
+        
+        let request_json = {
+            plus: plus,
+            minus: minus
+        };
+        
+        fetch('/adds', {
+            method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(request_json)
+              }).then((x) => {
+                  if (x.status === 200)
+                      window.location.replace('/')
+              });
+    }
+    
+    </script>
+    <div class="container-fluid">
+        <div class="d-sm-flex justify-content-between align-items-center mb-4">
+            <h3 class="text-dark mb-0">Доходы текущего года</h3>
+        </div>
+        <div class="container">
+                  <label for="plus"><b>Добавьте вашу прибыль</b></label>
+                  <input type="text" placeholder="Введите прибыль" id="plus_field" required>
+                  <label for="minus"><b>Добавьте ваши расходы</b></label>
+                  <input type="text" placeholder="Введите трату" id="minus_field" required>
+                  <button onclick="submit()">Подтвердить</button>
+
+        </div>
+        </div>
+    

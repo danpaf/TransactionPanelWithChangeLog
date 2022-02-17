@@ -1,0 +1,155 @@
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\dbms_table.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\earnings_table.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\region_table.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.exe
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\technology_table.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.deps.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.runtimeconfig.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.runtimeconfig.dev.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.dll
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.pdb
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.Views.dll
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.Views.pdb
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.AssemblyInfoInputs.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.AssemblyInfo.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csproj.CoreCompileInputs.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorComponent.input.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerGeography.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DBMS.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Earnings.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\WebProg.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_EarningsGrowth.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_Geography.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_GraphCustomers.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_GraphEarnings.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_MonthAverage.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_Technology.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_TotalCustomers.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_TotalEarning.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorAdminPanel.dll
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.TagHelpers.input.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.TagHelpers.output.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorCoreGenerate.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerGeography.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\DBMS.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Earnings.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\WebProg.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_EarningsGrowth.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_Geography.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_GraphCustomers.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_GraphEarnings.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_MonthAverage.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_Technology.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_TotalCustomers.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_TotalEarning.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorAssemblyInfo.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorAssemblyInfo.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\staticwebassets\BlazorAdminPanel.StaticWebAssets.Manifest.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorTargetAssemblyInfo.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorTargetAssemblyInfo.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.Views.pdb
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.dll
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.pdb
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.genruntimeconfig.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csproj.CopyComplete
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csprojAssemblyReference.cache
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\staticwebassets\BlazorAdminPanel.StaticWebAssets.xml
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\users.json
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Auth.cshtml.g.cs
+C:\Users\zxceb\OneDrive\Рабочий стол\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\register.cshtml.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\dbms_table.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\earnings_table.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\region_table.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\users.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.StaticWebAssets.xml
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.exe
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\DataBase\technology_table.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.deps.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.runtimeconfig.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.runtimeconfig.dev.json
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.dll
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.pdb
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.Views.dll
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\bin\Debug\netcoreapp3.1\BlazorAdminPanel.Views.pdb
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csproj.AssemblyReference.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.AssemblyInfoInputs.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.AssemblyInfo.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csproj.CoreCompileInputs.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorComponent.input.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerGeography.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DBMS.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Earnings.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\WebProg.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_EarningsGrowth.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_Geography.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_GraphCustomers.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_GraphEarnings.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_MonthAverage.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_Technology.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_TotalCustomers.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MyComponent\_TotalEarning.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorComponent.output.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorAdminPanel.dll
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.TagHelpers.input.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.TagHelpers.output.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorCoreGenerate.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerGeography.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\DBMS.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Earnings.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\WebProg.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_EarningsGrowth.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_Geography.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_GraphCustomers.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_GraphEarnings.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_MonthAverage.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_Technology.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_TotalCustomers.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\MyComponent\_TotalEarning.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Auth.cshtml.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\register.cshtml.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorAssemblyInfo.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorAssemblyInfo.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\staticwebassets\BlazorAdminPanel.StaticWebAssets.Manifest.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorTargetAssemblyInfo.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.RazorTargetAssemblyInfo.cs
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.Views.pdb
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.dll
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.pdb
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.genruntimeconfig.cache
+C:\Users\zxceb\Desktop\BlazorAdminPanel\BlazorAdminPanel\obj\Debug\netcoreapp3.1\BlazorAdminPanel.csproj.CopyComplete

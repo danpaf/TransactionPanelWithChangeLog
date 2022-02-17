@@ -1,0 +1,62 @@
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="/">
+        <i class="fas fa-th-large mr-3"></i>
+        BlazorAdminPanel
+    </a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Главная
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="earnings">
+                <span class="oi oi-bar-chart" aria-hidden="true"></span> Доходы
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="adds">
+                <span class="oi oi-bar-chart" aria-hidden="true"></span> Добавить Операцию
+            </NavLink>
+            </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="technology">
+                <i class="fas fa-cogs mr-3"></i> Все операции
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="profile">
+                <i class="fas fa-database mr-3"></i> Личный кабинет
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="auth">
+                <i class="fas fa-globe mr-3"></i> Авторизация
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <button class="nav-link" href="logout" onclick="fetch('/logout',{
+                                                                                method: 'POST',
+                                                                                }).then(() => {window.location.replace('/auth')})">
+                <i class="fas fa-database mr-3"></i> Выход из аккаунта
+            </button>
+            </li> 
+        
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

@@ -1,0 +1,45 @@
+﻿@* Обязательно для вызова метода Dispose, иначе метод вызываться не будет *@
+@implements IDisposable
+
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="text-secondary font-weight-bold m-0">@Title</h6>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public BlazorAdminPanel.Models.Table Table { get; set; }
+
+
+    public async void UpdateDB(object sender)
+    {
+        await InvokeAsync(() => StateHasChanged());
+    }
+
+
+    private string color;
+    private Random r = new Random();
+
+    // Асинхронная инициализация при загрузке данной страницы
+    protected override void OnInitialized()
+    {
+        string[] colors = { "bg-success", "bg-danger", "bg-info", "bg-warning", "bg-primary" };
+
+        color = colors[r.Next(0, colors.Length)];
+
+        Table.UpdateEvent += UpdateDB;
+    }
+
+
+    // Очистка перед удалением компонента
+    public void Dispose()
+    {
+        Table.UpdateEvent -= UpdateDB;
+    }
+}
