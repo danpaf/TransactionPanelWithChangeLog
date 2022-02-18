@@ -1,0 +1,177 @@
+@page
+@using System.Transactions
+@using BlazorAdminPanel.Pages
+@model BlazorAdminPanel.Pages.adds
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Mvc
+    @using Microsoft.JSInterop
+    @using global::BlazorAdminPanel.DataBase
+@using global::BlazorAdminPanel.Extensions
+
+@* Обязательно для вызова метода Dispose, иначе метод вызываться не будет *@
+
+@inject IJSRuntime JSRuntimeФ
+
+
+    @functions{
+
+        public double Plus { get; init; }
+        public double Minus { get; init; }
+        
+
+        public void OnGet()
+        {
+            
+        }
+
+        public void OnPost()
+        {
+            
+        }
+
+
+    }
+@{
+    ViewData["Title"] = "Список пользователей";
+}
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+body, html {
+	height: 100%;
+	font-family: OpenSans-Regular, sans-serif;
+	background-color: #f1fefe;} 
+	
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #111A1A;
+    text-align: center;
+    bottom: 0;
+    border-radius: 20px;}
+    
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1fefe;
+}
+
+.box {
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+
+}
+
+.box select {
+  background-color: #111A1A;
+  color: white;
+  padding: 15px;
+  width: 300px;
+  border: none;
+  
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: none;
+  
+  outline: none;
+  border-radius: 20px;
+}
+
+.box::before {
+  content: "▼";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 20px;
+  right: 13px;
+  
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+  
+}
+.inp {
+padding:10px;
+ margin:10px 0;
+ border-radius: 20px;
+ height: 50px;
+ width:300px;
+ font-size: 20px;
+
+}
+.otp {
+padding:10px;
+ border-radius: 20px;
+ width:300px;
+ background-color: #57b846;
+ font-size: 20px;
+ color:white;
+}
+
+
+
+</style>
+
+<script>
+    function Check(obj)
+    {
+    if (obj == 'true') { document.all.btn.disabled = true }
+    else { document.all.btn.disabled = false }
+    }
+   </script>
+    <div class="div.container">
+        <div >
+            <h2 class="h2" style="font-family: Arial; text-align: center; color: #a1a1a1; ">Добавление операций</h2>
+        </div>
+        <div class="box" >
+                 
+            @*Без понятия что указать в актион*@
+            
+                  <form action="operation">
+                  
+                      <p><select size="1" name="dohros" onChange='Check(this.value)'>
+                          <option disabled selected style = "background: #000 ">Выберите вид операции</option>
+                          <option style = "background: #57b846"  value="t1">Доход</option>
+                          <option style = "background: #f44336 " value="t2">Расход</option>
+                     
+                      </select></p>
+                      <p><select size="1" name="category">
+                          <option disabled selected style = "background: #000 ">Категории</option>
+                          <option  value="c1" style = "background: #333333 ">Продукты</option>
+                          <option  value="c2" style = "background: #333333 ">Ресторан</option>
+                          <option  value="c3" style = "background: #333333 ">Аптека</option>
+                          <option  value="c4" style = "background: #333333 ">Такси</option>
+                          <option  value="c5" style = "background: #333333 ">Развлечение</option>
+                          <option  value="c6" style = "background: #333333 ">Подарки</option>
+                      </select></p>
+                      
+                      <input class = "inp" type="number" placeholder="Введите сумму операции"  required>
+                      <p><input class = "otp" type="submit" value="Отправить" id='btn'></p>
+                   </form>
+
+        </div>
+        </div>
+<script>
+Check('true');
+</script>
