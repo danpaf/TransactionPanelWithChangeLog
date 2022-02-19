@@ -15,6 +15,4 @@ public class Transaction
     public Guid TypeUid { get; set; }
     [ForeignKey("TypeUid")] public Type Type { get; set; }
     
-    public double Plus { get; set; }
-    public double Minus { get; set; }
 }

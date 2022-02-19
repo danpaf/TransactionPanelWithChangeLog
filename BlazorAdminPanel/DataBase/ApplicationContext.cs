@@ -54,8 +54,6 @@ namespace BlazorAdminPanel.DataBase
                 entity.Property(e => e.AddedDate).HasColumnName("added_date");
                 entity.Property(e => e.UserUid).HasColumnName("user_uid");
                 entity.Property(e => e.TypeUid).HasColumnName("type_uid");
-                entity.Property(e => e.Plus).HasColumnName("plus");
-                entity.Property(e => e.Minus).HasColumnName("minus");
             });
             
             base.OnModelCreating(modelBuilder);

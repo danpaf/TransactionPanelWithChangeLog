@@ -34,6 +34,30 @@
 @{
     ViewData["Title"] = "Список пользователей";
 }
+<script>
+    function submit()
+    {
+        let delta = document.getElementById("delta").value;
+        var sel = document.getElementById("selector"); 
+        var val = sel.options[sel.selectedIndex].value;
+        let request_json = {
+            delta: delta,
+            type: val,
+        };
+        
+        fetch('/adds', {
+            method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(request_json)
+              }).then((x) => {
+                  if (x.status === 200)
+                      window.location.replace('/')
+              });
+    }
+    
+    </script>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -148,7 +172,7 @@ padding:10px;
                  
             @*Без понятия что указать в актион*@
             
-                  <form action="operation">
+                  <form action="#delta" id="selector">
                   
                       <p><select size="1" name="dohros" onChange='Check(this.value)'>
                           <option disabled selected style = "background: #000 ">Выберите вид операции</option>
@@ -158,15 +182,15 @@ padding:10px;
                       </select></p>
                       <p><select size="1" name="category">
                           <option disabled selected style = "background: #000 ">Категории</option>
-                          <option  value="c1" style = "background: #333333 ">Продукты</option>
-                          <option  value="c2" style = "background: #333333 ">Ресторан</option>
-                          <option  value="c3" style = "background: #333333 ">Аптека</option>
-                          <option  value="c4" style = "background: #333333 ">Такси</option>
-                          <option  value="c5" style = "background: #333333 ">Развлечение</option>
-                          <option  value="c6" style = "background: #333333 ">Подарки</option>
+                          <option  id="product_option" value="c1" style = "background: #333333 ">Продукты</option>
+                          <option id="cafes_option" value="c2" style = "background: #333333 ">Ресторан</option>
+                          <option id="health_option" value="c3" style = "background: #333333 ">Аптека</option>
+                          <option id="transport_option" value="c4" style = "background: #333333 ">Такси</option>
+                          <option  id="chilling_option" value="c5" style = "background: #333333 ">Развлечение</option>
+                          <option  id="gifts_option" value="c6" style = "background: #333333 ">Подарки</option>
                       </select></p>
                       
-                      <input class = "inp" type="number" placeholder="Введите сумму операции"  required>
+                      <input id="delta" class = "inp" type="number" placeholder="Введите сумму операции"  required>
                       <p><input class = "otp" type="submit" value="Отправить" id='btn'></p>
                    </form>
 

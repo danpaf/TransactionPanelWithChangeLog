@@ -65,7 +65,7 @@ public class RegisterController : Controller
             Password = credentials.Password.GetSha512(),
             Age = credentials.Age,
             AddedDate = DateTime.UtcNow,
-            StatusUid = new Guid("47d706e9-67ac-4e9c-9905-7439322731b6")
+            StatusUid = new Guid("94ce04da-26dd-49ab-97a7-eff52fa4d2e9")
         };
         
         _db.Users.Add(user);
