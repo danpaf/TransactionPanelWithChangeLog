@@ -1,10 +1,14 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Transactions;
+using BlazorAdminPanel.Controllers;
 using BlazorAdminPanel.DataBase;
 using BlazorAdminPanel.DataBase.Models;
+using BlazorAdminPanel.Extensions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -21,10 +25,6 @@ public class adds : PageModel
     
     [BindProperty]
     public BlazorAdminPanel.DataBase.Models.Transaction Transaction { get; set; }
-    public adds(ApplicationContext db)
-    {
-        _context = db;
-    }
 
     public void OnGet()
     {
@@ -42,27 +42,43 @@ public class adds : PageModel
         return Page();
     }
 
-    [HttpGet]
-    [Route("/adds")]
-    public IActionResult OnGetFin()
+    
+}
+
+public class TransactionController : Controller
+
+{
+    
+    private readonly ApplicationContext _context;
+    public TransactionController(ApplicationContext db)
     {
-        return new OkResult();
+        _context = db;
+    }
+    public class AddsCredentials
+    {
+        public double Delta { get; init; }
+        public Guid TypeUid { get; init; }
+    }
+    [HttpGet]
+    [Route("/adds)")]
+    public IActionResult OnGetSubmit()
+    {
+        return View("~/Pages/adds.cshtml");
     }
     [HttpPost]
     [Route("/adds")]
-    public IActionResult OnPostRegister([FromBody] adds credentials)
+    public IActionResult OnSubmitAdds([FromForm] AddsCredentials credentials)
     {
-        
         
         
         var transaction = new BlazorAdminPanel.DataBase.Models.Transaction()
         {
             Uid = Guid.NewGuid(),
-            Delta = Transaction.Delta,
-            /*TypeUid = ,*/
-            /*UserUid = */
+            Delta = credentials.Delta,
+            TypeUid = new Guid("f06b8508-190a-4e4b-b13b-1fccfe5cd610"),
+            UserUid = new Guid(HttpContext.Session.GetString("userid")),
             AddedDate = DateTime.UtcNow,
-          
+
         };
         
         _context.Transactions.Add(transaction);
@@ -71,4 +87,5 @@ public class adds : PageModel
         return new OkResult();
         
     }
+    
 }

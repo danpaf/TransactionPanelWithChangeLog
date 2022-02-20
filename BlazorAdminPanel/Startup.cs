@@ -24,6 +24,7 @@ namespace BlazorAdminPanel
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddHttpContextAccessor();
             
 
             // ������ ������ ���������� ������ �� ����������

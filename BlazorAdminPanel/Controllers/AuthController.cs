@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using BlazorAdminPanel.DataBase;
 using BlazorAdminPanel.Extensions;
 using BlazorAdminPanel.Pages;
@@ -16,6 +17,7 @@ public class AuthController : Controller
     {
         public string Email { get; init; }
         public string Password { get; init; }
+        public Guid UserId { get; init; }
     }
     
     private readonly ApplicationContext _db;
@@ -43,6 +45,7 @@ public class AuthController : Controller
         
         HttpContext.Session.SetString("is_authed", "true");
         HttpContext.Session.SetString("email", user.Email);
+        HttpContext.Session.SetString("userid", user.Uid.ToString());
         return new OkResult();
     }
 }

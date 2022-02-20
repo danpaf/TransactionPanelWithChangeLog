@@ -37,12 +37,17 @@
 <script>
     function submit()
     {
-        let delta = document.getElementById("delta").value;
-        var sel = document.getElementById("selector"); 
-        var val = sel.options[sel.selectedIndex].value;
+      let delta = document.getElementById("delta");
+        var opt = document.getElementById("selectorOption").value;
+        var cat = document.getElementById("selectorCategory").value;
+        var val = cat.options[sel.selectedIndex].value;
+        var val1 = opt.options[sel.selectedIndex].value;
         let request_json = {
             delta: delta,
+            opt:val1,
             type: val,
+            
+            
         };
         
         fetch('/adds', {
@@ -172,27 +177,43 @@ padding:10px;
                  
             @*Без понятия что указать в актион*@
             
-                  <form action="#delta" id="selector">
+            <form action="/adds" id="selectid"method="post">
                   
-                      <p><select size="1" name="dohros" onChange='Check(this.value)'>
-                          <option disabled selected style = "background: #000 ">Выберите вид операции</option>
-                          <option style = "background: #57b846"  value="t1">Доход</option>
-                          <option style = "background: #f44336 " value="t2">Расход</option>
+                <p><select id="selectOption" size="1" name="dohros" onChange='Check(this.value)'>
+                    <option disabled selected style = "background: #000 ">Выберите вид операции</option>
+                    <option style = "background: #57b846"  value="t1">Доход</option>
+                    <option style = "background: #f44336 " value="t2">Расход</option>
                      
-                      </select></p>
-                      <p><select size="1" name="category">
-                          <option disabled selected style = "background: #000 ">Категории</option>
-                          <option  id="product_option" value="c1" style = "background: #333333 ">Продукты</option>
-                          <option id="cafes_option" value="c2" style = "background: #333333 ">Ресторан</option>
-                          <option id="health_option" value="c3" style = "background: #333333 ">Аптека</option>
-                          <option id="transport_option" value="c4" style = "background: #333333 ">Такси</option>
-                          <option  id="chilling_option" value="c5" style = "background: #333333 ">Развлечение</option>
-                          <option  id="gifts_option" value="c6" style = "background: #333333 ">Подарки</option>
-                      </select></p>
+                </select></p>
+                <p><select size="1" name="category" id="selectorCategory">
+                    <option disabled selected style = "background: #000 ">Категории</option>
+                    <option  id="product_option" value="c1" style = "background: #333333 ">Продукты</option>
+                    <option id="cafes_option" value="c2" style = "background: #333333 ">Ресторан</option>
+                    <option id="health_option" value="c3" style = "background: #333333 ">Аптека</option>
+                    <option id="transport_option" value="c4" style = "background: #333333 ">Такси</option>
+                    <option  id="chilling_option" value="c5" style = "background: #333333 ">Развлечение</option>
+                    <option  id="gifts_option" value="c6" style = "background: #333333 ">Подарки</option>
+                </select></p>
                       
-                      <input id="delta" class = "inp" type="number" placeholder="Введите сумму операции"  required>
-                      <p><input class = "otp" type="submit" value="Отправить" id='btn'></p>
-                   </form>
+                <input id="delta" class = "inp" type="number" placeholder="Введите сумму операции"  required>
+                <p><input onclick="submit()" class = "otp" type="submit" value="Отправить" id='btn'></p>
+            </form>
+            @*<script>
+            var submitbtn = document.getElementById(delta);
+                if (submitbtn == null){
+                    alert("Все плохо.")
+};
+                fetch('/adds', {
+                            method: 'POST',
+                                headers: {
+                                  'Content-Type': 'application/json'
+                                },
+                                form: JSON.stringify(request_json)
+                                })
+                    
+                    
+            
+            </script>*@
 
         </div>
         </div>
